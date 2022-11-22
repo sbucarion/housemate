@@ -1,6 +1,6 @@
 import pymysql as sql
 
-db = sql.connect(host="server-db.cidiojll3pvh.us-east-1.rds.amazonaws.com", password="12345678", user="admin", port=3306)
+db = sql.connect(host="", password="", user="", port=)
 # sql_file = open('show_dbs.sql','r')
 # commands = sql_file.read()
 
