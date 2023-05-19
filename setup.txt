@@ -1,0 +1,33 @@
+#backend
+1) pip install django -> Installed 4.1.4
+
+2) django-admin startproject backend 
+    If that doesnt work -> python -m django startproject backend
+
+3) django-admin startapp auth_api
+    If that doesnt work -> python -m django startapp auth_api
+
+4) pip install djangorestframework -> Installed 3.12.4 (import rest_framework \n rest_framework.__version__) or (pip show djangorestframework)
+
+5) pip install djangorestframework-simplejwt -> Installed 5.2.2
+
+6) pip install django-cors-headers
+
+7) pip install pymysql
+
+8) In main __init__ file
+    import pymysql
+    pymysql.install_as_MySQLdb()
+
+
+#frontend
+1) npx create-react-app my-app
+
+2) npm install react-router-dom
+
+3) npm install react-cookie
+
+4) npm install axios
+
+5) npm install --force react-alert
+
